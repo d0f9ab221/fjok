@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YouTube Channel Profiler</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>YouTube Channel Profiler</h1>
+        <p>Enter a YouTube channel URL to automatically extract logo, name, and create a profile with subscribe button.</p>
+        <form id="channel-form">
+            <input type="text" id="channel-url" placeholder="https://www.youtube.com/c/ChannelName" required>
+            <button type="submit">Generate Profile</button>
+        </form>
+        <div id="result" class="result hidden">
+            <h2>Channel Profile</h2>
+            <div class="channel-info">
+                <img id="channel-logo" src="" alt="Channel Logo">
+                <h3 id="channel-name"></h3>
+                <a id="subscribe-button" href="#" target="_blank">Subscribe on YouTube</a>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

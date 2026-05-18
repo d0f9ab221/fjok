@@ -1,0 +1,12 @@
+{
+  "name": "youtube-channel-profiler",
+  "version": "1.0.0",
+  "description": "YouTube Channel Profiler - Extract channel info and generate profile with subscribe button",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
